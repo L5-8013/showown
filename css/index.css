@@ -1,0 +1,85 @@
+/*layout*/
+.doc{
+	width: 100%;
+	/*text-align: left;*/
+}
+.wrapper{
+	width: 100%;
+	overflow: hidden;
+}
+a:hover {
+    text-decoration: none;
+}
+.area{
+	min-width: 1000px;
+	position: relative;
+  	background-repeat: no-repeat;
+  	background-position:top center;
+}
+.area-1{
+	height: 696px;
+
+}
+.area-2{
+	height: 485px;
+	background-image: url(../images/area2.jpg);
+}
+.area-3{
+	height: 808px;
+	background-image: url(../images/area3.jpg);
+}
+.area-4{
+	height: 539px;
+	background-image: url(../images/area4.jpg);
+}
+
+.inner{
+	width: 1000px;
+/*	height: 200px;*/
+	margin: 0 auto;
+}
+/*footer*/
+body .g-footer{
+	background-image: url(../images/area5.jpg);
+	width: 100%;
+	position: relative;
+  	background-repeat: no-repeat;
+  	background-position:top center;
+  	margin: 0;
+  	border: 0;
+}
+body .g-footer .gft-links,
+body .g-footer .gft-links a{ color: #444445}
+body .g-footer .gft-copyRight,
+body .g-footer .gft-copyRight a{ color: #444445} 
+
+/*滚动条*/
+.mCSB_scrollTools {
+    right: -9px;
+	top: 22px;
+    width: 37px;
+    height: 100%;
+}
+
+.mCSB_dragger {
+    width: 10px;
+    height: 50px;
+    background: url('../images/dragger.png') no-repeat;
+    cursor: pointer;
+    right: 32px;
+    top: 10px;
+    z-index: 10;
+}
+
+.mCSB_draggerRail {
+    width: 1px;
+    height: 220px;
+    background: #152238;
+}
+
+.mCSB_container {
+    width: 946px;
+}
+
+/*area1*/
+
